@@ -16,7 +16,8 @@ import random
 
 now = datetime.now()
 time = int(now.strftime("%H"))
-cp = "C:/Users/Claudiu-PC/AppData/Local/Programs/Opera GX/launcher.exe %s --incognito"
+# cp = "C:/Users/<!!username!!>/AppData/Local/Programs/Opera GX/launcher.exe %s --incognito"
+# If you use Chrome, for defaul install location use : cp= " C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
 
 def no_disturb():
     win32gui.ShowWindow(win32gui.GetForegroundWindow(), win32con.SW_MINIMIZE)
@@ -24,20 +25,20 @@ def no_disturb():
 
 def go_youtube(txt):
     link = youtube_link(txt)
-    webbrowser.get(cp).open_new_tab(link)
+    webbrowser.open_new_tab(link)
     root.after(690, lambda: no_disturb()) # use 550 for a very fast pc || use 1000 for low end pc
 
 def go_google(txt):
     link = google_link(txt)
-    webbrowser.get(cp).open_new_tab(link)
+    webbrowser.open_new_tab(link)
 def search_google(txt):
     link = "https://www.google.com/search?q=" + txt
-    webbrowser.get(cp).open_new_tab(link)
+    webbrowser.open_new_tab(link)
 
 
 def go_wiki(txt):
     link = "https://en.wikipedia.org/wiki/"+txt
-    webbrowser.get(cp).open_new_tab(link)
+    webbrowser.open_new_tab(link)
 
 
 root = tk.Tk()
@@ -271,7 +272,7 @@ def retrive(event):
     dialog1.place(relx=0.1, rely=y)
     tt = re.split('\W+', txt)
     t=' '.join(tt) if len(tt)>1 else tt[0]
-    print(t)
+    #print(t) - to see the parsed input
     if t.upper() in open(os.getcwd()+"/Vocabulary/Hi.txt", 'r+').read():
         say = " Hello, Sir!"
         bot_dialog(say)
@@ -302,7 +303,7 @@ def retrive(event):
 
             ff = open(os.getcwd() + "/Vocabulary/LearnLater.txt", 'a')
             for ii in range(len(tt)):
-                print(tt[ii])
+                #print(tt[ii]) - to seethe parsed unknown word
                 ff.write(tt[ii])
                 ff.write('\n')
             ff.close()
@@ -321,7 +322,7 @@ def retrive(event):
         pass
 
 
-    print(y)
+    # print(y) - to see the curent y axis value
 
 e1=tk.Entry(root,
             bd=3,
