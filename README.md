@@ -38,9 +38,14 @@ That's why I started a few courses on artificial intelligence, which will help m
 ### User Guide:
 
 **Important:**<br/>
-**Richard runs best with OperaGx ( used in the code as well).**<br/>
-**If you are a Chrome or other browser user, in main.py in the 3rd variable called 'cp' specify the path to where chrome.exe is installed on your machine.** <br/>
-**For example:  _cp= " C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"_ - for default chrome instalation.**
+**Make sure to have your favorite BROWSER set as DEFAULT in order to be used by Richard**<br/>
+**Richard runs best with OperaGx ( used in the code as well) but works fine with other default browsers.**<br/>
 <br/>
 There are some basic commands:
-- let's play / play "some video/song"  -> Richard will open a 
+- _let's play_ / _play_ <some video/song name>  -> Richard will open a new window / tab in the background, playing the given song / video
+-  _let's go_ / _go_ <a site name (without www or .com) > -> Richard will search google for that site and will take the first secure result
+-  _let's search_ / _search_ <anything to search on google > -> Richard will search something for you on google
+-  _let's find_ / _find_  <file name and extension (eg: file.exe)> -> Richard will search the given file with the given extension in the current partition ( D by default)
+- _let's change dsk_ / _change dsk_ <a partition name on the machine ( D or C or etc..) -> Richard will change the curend search partition.
+- _Tell me a joke_  -> Prepare to laugh :)
+- Ask _How are you_ or _Hello_ or _Wssup_  -> richard will responde to you.
