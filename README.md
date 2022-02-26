@@ -29,8 +29,11 @@ So I started improving it:
 
 <br/>
 
-It has many things to be implement in order to becoming an AI in the true sense of the word (the reason whi is still in development). 
+It has many things to be implement in order to becoming an AI in the true sense of the word (the reason whi is still in development).
+<br/>
 Even if Richard currently communicates using a predefined and learned base of words / sentences and commands, it has a functionality through which it memorizes new phrases / words heard from the user, but being still in development, it cannot reuse them yet.
 That's why I started a few courses on artificial intelligence, which will help me take this project forward, _bringing Richard to life_
 
+
+### User Guide:
 
