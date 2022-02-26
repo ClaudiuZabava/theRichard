@@ -6,7 +6,7 @@ def youtube_link(search_keyword):
         search_keyword = '+'.join(search_keyword)
     else:
         search_keyword=search_keyword[0]
-    print(search_keyword)
+    # print(search_keyword) - to see the name of video
     html = urllib.request.urlopen("https://www.youtube.com/results?search_query=" + search_keyword)
     video_ids = re.findall(r"watch\?v=(\S{11})", html.read().decode())
     link = "https://www.youtube.com/watch?v=" + video_ids[0]
