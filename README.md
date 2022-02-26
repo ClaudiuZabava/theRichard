@@ -1,5 +1,6 @@
 # TheRichard
 ## _Your Daily Desktop Assistant_
+![](https://github.com/ClaudiuZabava/theRichard/blob/main/richardDemo.PNG)
 
 ### Long story short:
 
@@ -36,8 +37,6 @@ That's why I started a few courses on artificial intelligence, which will help m
 
 
 ### User Guide:
-
-![](https://github.com/ClaudiuZabava/theRichard/blob/main/richardDemo.PNG)
 
 **Important:**<br/>
 **Make sure to have your favorite BROWSER set as DEFAULT in order to be used by Richard**<br/>
