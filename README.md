@@ -38,9 +38,9 @@ That's why I started a few courses on artificial intelligence, which will help m
 ### User Guide:
 
 **Important:**<br/>
-**Richard runs best on OperaGx ( used in the code as well).**<br/>
-**If you are a Chrome user, in main.py in the 3rd variable called 'cp' specify the path to where chrome.exe is installed on your machine.** <br/>
-**For example: cp= " C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"  - for default chrome instalation.**
+**Richard runs best with OperaGx ( used in the code as well).**<br/>
+**If you are a Chrome or other browser user, in main.py in the 3rd variable called 'cp' specify the path to where chrome.exe is installed on your machine.** <br/>
+**For example:  _cp= " C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"_ - for default chrome instalation.**
 <br/>
 There are some basic commands:
 - let's play / play "some video/song"  -> Richard will open a 
