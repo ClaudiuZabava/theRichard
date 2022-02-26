@@ -1,0 +1,45 @@
+
+# ======================== Beta Code / Snippets / Prototypes ==========================
+
+'''                    
+            elif tt[2].upper() == "SEARCH":
+            elif len(tt)>3 and tt[2].upper() == "GO":
+                if tt[3].upper() == "PLAY":
+                elif tt[3].upper() == "SEARCH":
+                else:
+
+
+        if tt[0].upper() == "PLAY":
+        elif tt[0].upper() == "GO" or tt[0].upper() == "SEARCH":
+'''
+
+
+
+
+'''
+init_rec = sr.Recognizer()
+cp = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s --incognito"
+print("Im listening..")
+with sr.Microphone() as source:
+    audio_data = init_rec.record(source, duration=5)
+    print("Recognizing your text.............")
+    text = init_rec.recognize_google(audio_data)
+    print(text)
+webbrowser.get(cp).open_new_tab("www.google.com/search?q="+text)
+win32gui.ShowWindow(win32gui.GetForegroundWindow(), win32con.SW_MINIMIZE)
+'''
+
+'''
+cp = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s --incognito"
+text = "rick rolled"
+webbrowser.get(cp).open_new_tab("www.google.com/search?q="+text)
+win32gui.ShowWindow(win32gui.GetForegroundWindow(), win32con.SW_MINIMIZE)
+'''
+
+'''
+richard_face = Image.open('richard.gif')
+richard_face = richard_face.resize((150,100))
+richard_face = ImageTk.PhotoImage(richard_face)
+richard_label = tk.Label(root, image=richard_face, bg='#090C07')
+richard_label.grid(row=0)
+'''
