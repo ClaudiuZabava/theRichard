@@ -45,6 +45,7 @@ That's why I started a few courses on artificial intelligence, which will help m
 - _let's play_ / _play_ <some video/song name>  -> Richard will open a new window / tab in the background, playing the given song / video
 -  _let's go_ / _go_ <a site name (without www or .com) > -> Richard will search google for that site and will take the first secure result
 -  _let's search_ / _search_ <anything to search on google > -> Richard will search something for you on google
+- _let's wiki_ / _wiki_ <anything to search on Wiki > -> Same as search, but on Wikipedia.
 -  _let's find_ / _find_  <file name and extension (eg: file.exe)> -> Richard will search the given file with the given extension in the current partition ( D by default)
 - _let's change dsk_ / _change dsk_ <a partition name on the machine ( D or C or etc..) -> Richard will change the curent search partition.
 - _Tell me a joke_  -> Prepare to laugh :)
