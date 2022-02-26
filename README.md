@@ -52,3 +52,7 @@ That's why I started a few courses on artificial intelligence, which will help m
 - _let's change dsk_ / _change dsk_ <a partition name on the machine ( D or C or etc..) -> Richard will change the curent search partition.
 - _Tell me a joke_  -> Prepare to laugh :)
 - Ask _How are you_ or _Hello_ or _Wssup_  -> richard will responde to you.
+  
+### For Future Updates:
+  - Mechanism to learn the new memorised words.
+  - More AI fashion interaction methods with user.
