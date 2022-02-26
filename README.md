@@ -1,2 +1,2 @@
 # theRichard
- The Richard - Your Daily Desktop Assistant
+## _The Richard - Your Daily Desktop Assistant_
