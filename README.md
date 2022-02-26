@@ -1,7 +1,7 @@
 # TheRichard
 ## _Your Daily Desktop Assistant_
 
-#### **Long story short:**
+### Long story short:
 
 Hey, let me introduce you to _Richard_ -> an easy to use ( still in development) desktop assistant. (with plans to be upgraded into an AI in the near future).
 
