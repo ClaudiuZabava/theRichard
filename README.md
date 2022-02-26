@@ -37,7 +37,7 @@ That's why I started a few courses on artificial intelligence, which will help m
 
 ### User Guide:
 
-![](https://github.com/[ClaudiuZabava]/[theRichard]/[main]/richardDemo.PNG?raw=true)
+![](https://github.com/[ClaudiuZabava]/[theRichard]/blob/[main]/richardDemo.PNG?raw=true)
 
 **Important:**<br/>
 **Make sure to have your favorite BROWSER set as DEFAULT in order to be used by Richard**<br/>
