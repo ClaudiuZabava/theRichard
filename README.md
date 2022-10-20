@@ -4,7 +4,7 @@
 
 ### Long story short:
 
-Hey, let me introduce you to _Richard_ -> an easy to use ( still in development) desktop assistant. (with plans to be upgraded into an AI in the near future).
+Hey, let me introduce you to _Richard_ -> an easy to use ( still in development) desktop assistant. (̶w̶i̶t̶h̶ ̶p̶l̶a̶n̶s̶ ̶t̶o̶ ̶b̶e̶ ̶u̶p̶g̶r̶a̶d̶e̶d̶ ̶i̶n̶t̶o̶ ̶a̶n̶ ̶A̶I̶ ̶i̶n̶ ̶t̶h̶e̶ ̶n̶e̶a̶r̶ ̶f̶u̶t̶u̶r̶e̶)̶.
 
 <br/>
 
@@ -18,7 +18,7 @@ Thus was born, at that time only a .py program runned from teriminal, assistant 
 Then I decided I could make it more user-friendly, and started to buitl it's GUI using python-Tkinter.
 
 Then the idea came to me: why not make him 'behave' like a real assistant. 
-I had in mind a kind of valet with his own intelligence (in short, an AI made to serve me).
+I had in mind a kind of valet with his own intelligence (̶i̶n̶ ̶s̶h̶o̶r̶t̶,̶ ̶a̶n̶ ̶A̶I̶ ̶m̶a̶d̶e̶ ̶t̶o̶ ̶s̶e̶r̶v̶e̶ ̶m̶e̶)̶.̶
 
 <br/>
 
@@ -30,7 +30,7 @@ So I started improving it:
 
 <br/>
 
-It has many things to be implement in order to becoming an AI in the true sense of the word (the reason whi is still in development).
+It has many things to be implement in order to becoming an AI in the true sense of the word (the reason why is still in development).
 <br/>
 Even if Richard currently communicates using a predefined and learned base of words / sentences and commands, it has a functionality through which it memorizes new phrases / words heard from the user, but being still in development, it cannot reuse them yet.
 That's why I started a few courses on artificial intelligence, which will help me take this project forward, _bringing Richard to life_
